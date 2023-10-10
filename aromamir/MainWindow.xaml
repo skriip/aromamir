@@ -1,0 +1,25 @@
+﻿<Window x:Class="aromamir.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aromamir"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="475" Width="823">
+    <Grid Margin="0,0,0,-16">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF202F33"/>
+                <GradientStop Color="#FF9CE8FB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="Регистрация" HorizontalAlignment="Left" Margin="529,326,0,0" VerticalAlignment="Top" Width="156" Click="Button_Click" Height="42" Background="#FF85CADC" FontFamily="Segoe UI Black" FontSize="14"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="252,326,0,0" VerticalAlignment="Top" Height="42" Width="171" Background="#FF85CADC" FontFamily="Arial Black" FontSize="14" Click="Button_Click_1"/>
+        <TextBox TextWrapping="Wrap" Height="NaN" Margin="274,94,148,318" TextChanged="TextBox_TextChanged"/>
+        <TextBox TextWrapping="Wrap" Height="NaN" Margin="274,178,148,236" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Введите логин" Margin="54,111,588,273" FontSize="16" FontFamily="Arial Black"/>
+        <Label Content="Введите пароль" Margin="54,192,566,190" FontFamily="Segoe UI Black" FontSize="16"/>
+        <Button Content="продолжить без регистрации" HorizontalAlignment="Left" Margin="252,393,0,0" VerticalAlignment="Top" Width="433" Click="Button_Click" Height="42" Background="#FF85CADC" FontFamily="Segoe UI Black" FontSize="14"/>
+
+    </Grid>
+</Window>
